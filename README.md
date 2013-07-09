@@ -2,6 +2,14 @@
 
 A Clojure library for producing *simple* factory data.
 
+## Install
+
+Using leiningen and clojars:
+
+``` clojure
+[factories "0.1.0"]
+```
+
 ## Usage
 
 Super simple:
