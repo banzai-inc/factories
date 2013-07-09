@@ -14,6 +14,7 @@ Super simple:
                  :email "johnny@gmail.com"})
 
 (user {:email "depp@gmail.com"})
+
 => {:first-name "Johnny" :last-name "Depp" :email "depp@gmail.com"}
 ```
 

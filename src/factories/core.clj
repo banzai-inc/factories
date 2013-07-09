@@ -1,6 +1,7 @@
 (ns factories.core)
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+(defmacro defactory
+  [fname defaults]
+  `(defn ~fname
+     ([] ~defaults)
+     ([args#] (merge ~defaults args#))))
